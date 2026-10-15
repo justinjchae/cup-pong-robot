@@ -1,0 +1,110 @@
+{
+  "captured_at": "2026-09-21T17:50:05.324073",
+  "cam_index": 0,
+  "rotate_code": "None",
+  "note": "distance_in is true pivot-referenced r (measured_in + this sample's offset for whichever point measured_from names); samples may mix reference points across sessions, distance_in is always the pivot-referenced value to use. measured_in is always measured to the cup's FRONT edge (near wall, at table level), matching the 'base' pixel (bottom of the cup's silhouette) - not the cup's center. This does not yet account for cup height/rim clearance - r is purely a ground-plane distance, z is assumed 0.",
+  "samples": [
+    {
+      "pixel_row": 438,
+      "measured_in": 100.0,
+      "measured_from": "launcher base",
+      "distance_in": 101.96850393700788
+    },
+    {
+      "pixel_row": 439,
+      "measured_in": 95.0,
+      "measured_from": "launcher base",
+      "distance_in": 96.96850393700788
+    },
+    {
+      "pixel_row": 443,
+      "measured_in": 90.0,
+      "measured_from": "launcher base",
+      "distance_in": 91.96850393700788
+    },
+    {
+      "pixel_row": 447,
+      "measured_in": 85.0,
+      "measured_from": "launcher base",
+      "distance_in": 86.96850393700788
+    },
+    {
+      "pixel_row": 451,
+      "measured_in": 80.0,
+      "measured_from": "launcher base",
+      "distance_in": 81.96850393700788
+    },
+    {
+      "pixel_row": 457,
+      "measured_in": 75.0,
+      "measured_from": "launcher base",
+      "distance_in": 76.96850393700788
+    },
+    {
+      "pixel_row": 463,
+      "measured_in": 70.0,
+      "measured_from": "launcher base",
+      "distance_in": 71.96850393700788
+    },
+    {
+      "pixel_row": 469,
+      "measured_in": 65.0,
+      "measured_from": "launcher base",
+      "distance_in": 66.96850393700788
+    },
+    {
+      "pixel_row": 477,
+      "measured_in": 60.0,
+      "measured_from": "launcher base",
+      "distance_in": 61.968503937007874
+    },
+    {
+      "pixel_row": 490,
+      "measured_in": 55.0,
+      "measured_from": "launcher base",
+      "distance_in": 56.968503937007874
+    },
+    {
+      "pixel_row": 497,
+      "measured_in": 50.0,
+      "measured_from": "launcher base",
+      "distance_in": 51.968503937007874
+    },
+    {
+      "pixel_row": 511,
+      "measured_in": 45.0,
+      "measured_from": "launcher base",
+      "distance_in": 46.968503937007874
+    },
+    {
+      "pixel_row": 529,
+      "measured_in": 40.0,
+      "measured_from": "launcher base",
+      "distance_in": 41.968503937007874
+    },
+    {
+      "pixel_row": 554,
+      "measured_in": 35.0,
+      "measured_from": "launcher base",
+      "distance_in": 36.968503937007874
+    },
+    {
+      "pixel_row": 586,
+      "measured_in": 30.0,
+      "measured_from": "launcher base",
+      "distance_in": 31.968503937007874
+    },
+    {
+      "pixel_row": 630,
+      "measured_in": 25.0,
+      "measured_from": "launcher base",
+      "distance_in": 26.968503937007874
+    },
+    {
+      "pixel_row": 697,
+      "measured_in": 20.0,
+      "measured_from": "launcher base",
+      "distance_in": 21.968503937007874
+    }
+  ]
+}

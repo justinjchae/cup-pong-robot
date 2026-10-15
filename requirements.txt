@@ -1,0 +1,5 @@
+odrive==0.6.11     # Python API matching the ODrive S1 firmware (0.6.9) on both axes
+numpy
+opencv-python
+flask
+pygame             # optional: Xbox controller input (scripts fall back to keyboard/web without it)

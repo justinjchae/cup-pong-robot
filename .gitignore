@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+odrive_env/
+
+# Personal/non-code
+LinkedIn Posts/
+
+# CAD files (large binaries, not needed on the Pi)
+*.step
+*.stp
+motor-X8308S/

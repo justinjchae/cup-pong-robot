@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-09-20T11:43:35.704179",
+  "cam_index": 0,
+  "pan_center": -0.024904589176177994,
+  "phi0": 0.0029263663798001745,
+  "valid_phi_range": [
+    -0.08333333333333333,
+    0.09166666666666665
+  ],
+  "note": "phi is pan offset in turns from the locked center (pan_center). For a new detection with pixel offset e while PAN is at absolute position p_now, its absolute target angle is p_now + phi0 - phi_of_e(e), reconstructing phi_of_e via monotone_interpolant(samples e-values, samples phi-values). valid_phi_range is the contiguous phi span the real target was actually tracked across - callers (cup_map.py) should not trust detections computed outside it. Reprocessed 2026-09-20 to drop background-contaminated tail samples - original raw sweep is no longer needed, this file replaces it.",
+  "samples": [
+    {
+      "phi_turns": 0.09166666666666665,
+      "pixel_offset": -626
+    },
+    {
+      "phi_turns": 0.08333333333333334,
+      "pixel_offset": -590
+    },
+    {
+      "phi_turns": 0.07500000000000001,
+      "pixel_offset": -520
+    },
+    {
+      "phi_turns": 0.06666666666666668,
+      "pixel_offset": -450
+    },
+    {
+      "phi_turns": 0.05833333333333335,
+      "pixel_offset": -384
+    },
+    {
+      "phi_turns": 0.05000000000000002,
+      "pixel_offset": -319
+    },
+    {
+      "phi_turns": 0.041666666666666685,
+      "pixel_offset": -261
+    },
+    {
+      "phi_turns": 0.033333333333333354,
+      "pixel_offset": -201
+    },
+    {
+      "phi_turns": 0.024999999999999994,
+      "pixel_offset": -143
+    },
+    {
+      "phi_turns": 0.016666666666666663,
+      "pixel_offset": -89
+    },
+    {
+      "phi_turns": 0.008333333333333331,
+      "pixel_offset": -36
+    },
+    {
+      "phi_turns": 0.0,
+      "pixel_offset": 19
+    },
+    {
+      "phi_turns": -0.008333333333333331,
+      "pixel_offset": 69
+    },
+    {
+      "phi_turns": -0.016666666666666663,
+      "pixel_offset": 122
+    },
+    {
+      "phi_turns": -0.024999999999999994,
+      "pixel_offset": 179
+    },
+    {
+      "phi_turns": -0.033333333333333326,
+      "pixel_offset": 238
+    },
+    {
+      "phi_turns": -0.04166666666666666,
+      "pixel_offset": 290
+    },
+    {
+      "phi_turns": -0.05833333333333332,
+      "pixel_offset": 421
+    },
+    {
+      "phi_turns": -0.06666666666666665,
+      "pixel_offset": 484
+    },
+    {
+      "phi_turns": -0.075,
+      "pixel_offset": 559
+    },
+    {
+      "phi_turns": -0.08333333333333333,
+      "pixel_offset": 613
+    }
+  ]
+}
